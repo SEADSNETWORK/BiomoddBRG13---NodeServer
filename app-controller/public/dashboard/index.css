@@ -1,0 +1,215 @@
+@import url("https://use.typekit.net/fxj6nrm.css");
+.simple-button {
+  border: none;
+  background-color: #ffffff00;
+  cursor: pointer;
+}
+
+.simple-button:focus {
+  outline: none;
+}
+
+.simple-button {
+  border: none;
+  background-color: #ffffff00;
+  cursor: pointer;
+}
+
+.simple-button:focus {
+  outline: none;
+}
+
+.main-content {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 5rem;
+}
+
+@media (min-width: 1024px) {
+  .main-content {
+    padding: 10vh 8rem;
+  }
+}
+
+.simple-a {
+  outline: none;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.text-color {
+  color: #FFF;
+}
+
+.d-none {
+  display: none;
+}
+
+.desktop {
+  display: none !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.page-title {
+  color: #FFF;
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin: 0;
+  color: #489fdf;
+}
+
+@media (min-width: 1024px) {
+  .desktop {
+    display: block !important;
+  }
+  .mobile {
+    display: none !important;
+  }
+}
+
+.simple-button {
+  border: none;
+  background-color: #ffffff00;
+  cursor: pointer;
+}
+
+.simple-button:focus {
+  outline: none;
+}
+
+.main-content {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 5rem;
+}
+
+@media (min-width: 1024px) {
+  .main-content {
+    padding: 10vh 8rem;
+  }
+}
+
+html {
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #92E8A7;
+  height: 200vh;
+}
+
+.title-container {
+  text-align: center;
+}
+
+.title-container td {
+  padding: 1rem 2rem;
+  background-color: #242424;
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+  border-radius: 20px;
+  color: #FFF;
+  -webkit-box-shadow: 0px 3px 10px rgba(72, 160, 223, 0.16);
+          box-shadow: 0px 3px 10px rgba(72, 160, 223, 0.16);
+  border-radius: 0 !important;
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  font-family: courier-std, monospace;
+}
+
+@media (min-width: 1024px) {
+  .title-container td {
+    border-radius: 40px;
+  }
+}
+
+#data tr {
+  text-align: center;
+}
+
+#data tr td {
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-weight: 500;
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-family: courier-std, monospace;
+}
+
+.terminal {
+  padding: 1rem 2rem;
+  background-color: #242424;
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+  border-radius: 20px;
+  color: #FFF;
+  -webkit-box-shadow: 0px 3px 10px rgba(72, 160, 223, 0.16);
+          box-shadow: 0px 3px 10px rgba(72, 160, 223, 0.16);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 0 !important;
+  height: 25vh;
+  padding: 1rem 8rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #FFF;
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin: 0;
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3rem;
+  font-size: 0.9rem;
+  overflow-y: auto;
+  font-family: courier-std, monospace;
+}
+
+@media (min-width: 1024px) {
+  .terminal {
+    border-radius: 40px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
+
+.red{
+  color: red;
+}
+
+.green{
+  color: green;
+}

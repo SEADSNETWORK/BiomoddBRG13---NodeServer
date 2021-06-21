@@ -1,0 +1,8 @@
+FROM node
+
+COPY ./app-sensor /var/www/html
+
+WORKDIR /var/www/html
+RUN npm install
+
+CMD ["node", "index.js"]

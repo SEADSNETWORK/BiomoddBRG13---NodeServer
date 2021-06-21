@@ -1,0 +1,20 @@
+version: '3'
+services:
+  fpsensor:
+    container_name: fpsensor
+    build:
+      context: .
+      dockerfile: fpsensor
+    ports:
+      - 2200:2200
+    volumes:
+      - ./app-sensor/:/var/www/html:rw
+  fpcontroller:
+    container_name: fpcontroller
+    build:
+      context: .
+      dockerfile: fpcontroller
+    ports:
+      - 2500:2500
+    volumes:
+      - ./app-controller/:/var/www/html:rw
