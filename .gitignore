@@ -1,2 +1,3 @@
 app-controller/node_modules
 app-sensor/node_modules
+.DS_Store
